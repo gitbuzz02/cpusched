@@ -1,0 +1,30 @@
+{
+  "name": "cpusched",
+  "version": "1.0.0",
+  "description": "CPU Scheduling Simulator and Benchmarking App for OS (MSIT)",
+  "main": "server.js",
+  "scripts": {
+    "test": "Test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbuzz02/cpusched.git"
+  },
+  "keywords": [
+    "CPU",
+    "Scheduling"
+  ],
+  "author": "Josh Buzz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitbuzz02/cpusched/issues"
+  },
+  "homepage": "https://github.com/gitbuzz02/cpusched#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
